@@ -1,0 +1,193 @@
+﻿html
+{
+    border:none;
+   
+}
+body {
+    min-width: 1024px;
+    min-height: 768px;
+   
+}
+
+h1, h2{
+    text-align: center;
+    color: black;
+}
+h2#gcn, h2#ns, h2#xb1
+{
+    text-align:left;
+    color: black;
+}
+/*.sitenavigation
+{
+    text-align:center;
+}
+.sitenavigation li
+{
+    list-style-type: none;
+}*/
+nav.sitenavigation {
+    padding: 1em 2%;
+    text-align: center;
+    background-color: red;
+}
+
+    nav.sitenavigation li {
+        margin: 0 1em;
+        display: inline-block;
+        font-size: 20px;
+        padding: 12px 16px;
+        
+    }
+
+    nav.sitenavigation a:link {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        
+    }
+
+    nav.sitenavigation a:visited {
+        color: white;
+    }
+
+    nav.sitenavigation a:hover, nav.sitenavigation a:focus {
+        text-shadow: none;
+        background-color: black;
+    }
+/*footer content*/
+footer {
+    padding:1em 2%;
+    text-align: center;
+    color: white;
+    background-color: red;
+}
+/*systems page*/
+.synsp:hover, .syx1p:hover, .sygcnp:hover
+{
+    background-color: red;
+}
+
+
+    /*drop down menus*/
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: red;
+    min-width: 160px;
+    z-index: 1;
+}
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+        .dropdown-content a:hover {
+            background-color: black;
+        }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+header
+{
+    background-color: black;
+}
+.headerlogo
+{
+    
+    background-color: black;
+}
+    img.headerlogo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+    }
+#gamebox:hover {
+    background-color: red;
+}
+
+/*form styles*/
+form {
+    padding: 0.5em;
+    
+}
+/*fieldset styles*/
+fieldset {
+    margin-bottom: 0.5em;
+    padding: 2.5em 2% 0.5em;
+    position: relative;
+    
+}
+
+    fieldset fieldset {
+        padding-top: 0.4em;
+        border: 2px solid black;
+    }
+
+form > fieldset > legend {
+    font-size: 1.25em;
+    font-family: PTSansCaption, Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 0.6em;
+}
+input, textarea {
+    padding: 0.2em;
+    font-size: 1em;
+}
+
+textarea {
+    width: 99%;
+    display: block;
+}
+
+fieldset.contactinfo input {
+    position: absolute;
+    left: 5em;
+}
+#nameinput, #emailinput {
+    width: 30em;
+}
+
+#phoneinput {
+    width: 12em;
+}
+.userinfo input
+{
+    position: absolute;
+    left: 7em;
+}
+.userinfo label
+  {
+    display: block;
+    position: relative;
+    margin: 0.8em 0;
+}
+div#gameslist
+{
+    display:block;
+    height: 310px;
+    width: 220px;
+}
+    div#gameslist a:hover, div#gameslist:hover {
+        background-color: red;
+    }
+    div#systemsin
+    {
+        width: 50%;
+        margin: 0 auto;
+    }
+

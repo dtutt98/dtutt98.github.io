@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Order Results: GameZone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="sitelogos/favicon.ico">
+    <script src="modernizr.custom.28018.js"></script>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img class="headerlogo" src="sitelogos/GameZoneLogo.png" alt="GameZone" /></a>
+    </header>
+    <nav class="sitenavigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <div class="dropdown">
+                <li class="dropdownul"><a href="systems.html">Systems &#9663;</a></li>
+                <div class="dropdown-content">
+                    <a href="nswitch.html">Nintendo Switch</a>
+                    <a href="xbox1.html">Xbox One</a>
+                    <a href="gcn.html">Nintendo GameCube</a>
+                </div>
+            </div>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+    </nav>
+    <h1>Order Results</h1>
+    <script>
+        var formData = location.search;
+        formData = formData.substring(1, formData.length);
+        while (formData.indexOf("+") !== -1) {
+            formData = formData.replace("+", " ");
+        }
+        formData = decodeURIComponent(formData);
+        var formArray = formData.split("&");
+        for (var i = 0; i < formArray.length; i = i + 1) {
+            document.write("<p>" + formArray[i] + "</p>");
+        }
+    </script>
+
+    <footer>
+        <p>&copy; 2018, GameZone. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

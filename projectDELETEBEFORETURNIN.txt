@@ -1,0 +1,87 @@
+•	A home (index) page called index.html. DONE
+•	A minimum of five (5) total pages with a minimum of three (3) levels of hierarchy. DONE
+•	A consistent navigation bar/menu with immediate access to the home page. DONE
+•	A consistent look and feel with meaningful content, images, and links. DONE
+•	A minimum of one (1) page must be formatted using CSS called from the HTML. DONE
+•	A minimum of (3) non-moving images/pictures, sized appropriately for the content of the page. DONE
+•	Specific content organized in subfolders: ../scripts (CSS) and ../images (pictures). DONE
+
+1. Full functionality in the latest versions of Internet Explorer, Edge, Mozilla Firefox, 
+and Google Chrome and a minimum of 1024 x 768 resolutions.
+
+Nothing particular you need to do just be sure your website works in the above 
+browsers at 1024 x 768 resolution. LOOK AT?
+
+
+2. Identify on the home page the appropriate browser 
+and resolution compliance (best viewed in).
+
+Required:
+	Screen Resolution:
+	The number of pixels horizontally and vertically on the screen.
+	
+	Screen Resolution can range from:
+
+	320 x 200
+	   to
+	1920 x 1200
+
+	or possibly even higher.
+
+	To get the screen resolution:
+	Windows 7 & 8:
+		right click the desktop
+		click screen resolution
+	Windows 10:
+		Right click desk top
+		Graphics Options
+		Resolution
+
+
+Optional:
+	1. The browser best viewed in (IE, Firefox, Chrome etc.).
+
+	2. Color Depth 
+		The bits per pixel used on the screen display.
+
+	Possible values for color depth:
+		Monochrome	1 bit
+		16 color	4 bit
+		256 color	8 bit
+		high color	15 bit
+		high color	16 bit
+		true color	24 bit
+		true color	32 bit 4th byte = alpha channel (transparency)
+
+	To get the color depth:
+	Windows 7:
+		right click the desktop
+		click screen resolution
+		click Advanced settings
+		click the Monitor tab
+	Windows 8 & 10:
+		Right click desk top
+		Graphics properties
+		Display
+		Color Settings
+		Color Depth
+
+A home, index.html 						Unit A
+4 other pages (Some may need to have content added later, see below)
+At least one page formatted using CSS in separate file		Units C & D
+navigation bar on each page 				 	Unit C - E
+At least 3 still images/pictures				Unit G
+have an images subfolder					Unit G
+
+To come later 
+a page with a YouTube video DONE
+a page with a form DONE
+a page using JavaScript DONE
+
+
+Project Documentation due Week 12 04/02/2018
+See ProjectDoc.doc. Send the documentation as a MS Word document.
+
+Project Power Point   due Week 12 04/02/2018
+See ProjectPowerPoint.doc
+

@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Order GameCube: GameZone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="sitelogos/favicon.ico">
+    <script src="modernizr.custom.10704.js"></script>
+    <script src="respond.min.js"></script>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img class="headerlogo" src="sitelogos/GameZoneLogo.png" alt="GameZone" /></a>
+    </header>
+    <nav class="sitenavigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <div class="dropdown">
+                <li class="dropdownul"><a href="systems.html">Systems &#9663;</a></li>
+                <div class="dropdown-content">
+                    <a href="nswitch.html">Nintendo Switch</a>
+                    <a href="xbox1.html">Xbox One</a>
+                    <a href="gcn.html">Nintendo GameCube</a>
+                </div>
+            </div>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+    </nav>
+    <h1>Order</h1>
+    <h2>GameCube</h2>
+    <form action="results.html">
+        <fieldset class="userinfo">
+            <legend>User Information</legend>
+            <label for="nameinput">
+                Name
+                <input type="text" name="name" id="nameinput" placeholder="First and last name" />
+            </label>
+
+            <label for="addressinput">
+                Street Address
+                <input type="text" name="address" id="addressinput" placeholder="Building number and street" />
+            </label>
+
+            <label for="cityinput">
+                City
+                <input type="text" name="city" id="cityinput" />
+            </label>
+
+            <label for="emailinput">
+                Email
+                <input type="email" name="email" id="emailinput" placeholder="address@example.com" />
+            </label>
+
+            <label for="phoneinput">
+                Phone
+                <input type="tel" name="phone" id="phoneinput" />
+            </label>
+        </fieldset>
+
+        <fieldset class="orderinfo">
+            <legend>Order</legend>
+            <fieldset class="sysinfo">
+                <legend>System</legend>
+                <label for="GCN"><input name="sys" type="radio" id="gcn" value="GCN" checked="checked" onclick="window.location='gcnorder.html'" />Nintendo GameCube</label>
+                <label for="NS"><input name="sys" type="radio" id="ns" value="NS" onclick="window.location='nsorder.html'"/>Nintendo Switch</label>
+                <label for="X1"><input name="sys" type="radio" id="x1" value="X1" onclick="window.location='x1order.html'"/>Xbox One</label>
+
+            </fieldset>
+
+            <fieldset class="gameinfo">
+                <label for="gamenameinput">
+                    Game Name
+                    <select name="gamename" id="gamenameinput">
+                        <option value="Luigis Mansion">Luigi's Mansion</option>
+                        <option value="Mario Kart: DD">Mario Kart Double Dash</option>
+                        <option value="Paper Mario: TTYD">Paper Mario The Thousand Year Door</option>
+                        <option value="WarioWare Inc. Mega Party Game$">WarioWare Inc. Mega Party Game$</option>
+                    </select>
+                </label>
+            </fieldset>
+
+
+            <fieldset class="gameoptions">
+                <legend>Options</legend>
+                <label for="scratch"><input name="options" type="checkbox" id="scratch" value="Scratch" />Scratch Protection</label>
+                <label for="purchase"><input name="options" type="checkbox" id="purchase" value="Purchase" />Purchase Used</label>
+                
+            </fieldset>
+        </fieldset>
+
+        <fieldset class="additionalinfo">
+            <legend>Special Instructions</legend>
+            <label>Special requests,</label>
+            <label>delivery details</label>
+            <label for="instructions"><textarea name="instructions" id="instructions" rows="3" cols="50"></textarea></label>
+        </fieldset>
+
+        <fieldset class="submitbutton"><input type="submit" id="submit" value="Add to Cart" /></fieldset>
+    </form>
+    <footer>
+        <p>&copy; 2018, GameZone. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
